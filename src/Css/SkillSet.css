@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+    #skillset-conatiner{
+        width: 95vw !important;
+    }
+    #skillHeadingDiv{
+        width: 95vw !important;
+    }
+    #skillset-content-display{
+        width: 95vw;
+        height: 330px !important;
+    }
+    #skillset-item{
+        height: 150px !important;
+        width: 20px !important;
+    }
+}
+.skillHeadingDiv{
+    width: 700px;
+
+}
+.skillset-content-display{
+    flex-wrap:wrap;
+    width:570px;
+    height:300px;
+}
+.skillset-item{
+    height:90px;
+    width:50px;
+    flex-direction:column;
+}

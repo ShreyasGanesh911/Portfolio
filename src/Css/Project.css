@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1200px){
+    #project-container{
+        flex-direction: column !important;
+        flex-flow: initial;
+        min-height: 75vh;
+        width: 95%;
+        
+    }
+    #project-container-img{
+        height: 40%;
+    }
+    #portfolio{
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 380px){
+    #project-container{
+        flex-direction: column !important;
+        flex-flow: initial;
+        min-height: 90vh;
+        width: 95%;
+        
+    }
+}
+.project-container{
+    height:45vh;
+    justify-content:flex-start;
+    width:60%;
+    flex-flow:row-reverse;
+    border-radius:1.7rem;
+}
+.project-img{
+    object-fit:contain;
+    border-radius:1.7rem;
+    width: 100%;
+    height: 100%;
+}
+.project-img-conatiner{
+    width:90%;
+    height:80%;
+}
+.project-content{
+    width:102%;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.project-container-img{
+    width:90%;
+    height:80%;
+}

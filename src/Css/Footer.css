@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px){
+    #footer-info{
+        display: initial !important;
+    }
+    .footer-location{
+        margin: 0px !important;
+        justify-content: start !important;
+    }
+}
+.footer{
+    --dot-bg: black;
+    --dot-color: white;
+    --dot-size: 1px;
+    --dot-space: 22px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+    width: 100vw;
+    height: 35vh;
+}
+.footer-image{ 
+    object-fit: contain;
+}
+.footer-end{
+    display: flex;
+    flex-flow: row-reverse;
+}

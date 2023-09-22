@@ -1,0 +1,7 @@
+.nav-listing{
+    display: flex;
+    flex-flow: row-reverse;
+}
+.nav-div{
+    width: 80%;
+}

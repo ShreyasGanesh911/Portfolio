@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px){
+  #landing-container{
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .background{
+    width: 100vw !important;
+  }
+  #circle{
+    bottom: -20px;
+    left: 320px;
+  }
+  .frame{
+    width: 90% !important;
+    height: 250px !important;
+  }
+}
+.landingFont{
+    font-size: 200px;
+    
+} 
+.background{
+    --dot-bg: black;
+    --dot-color: #149414;
+    --dot-size: 1px;
+    --dot-space: 22px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+    width: 30vw;
+    height: 50vh;
+
+  }
+.landing{
+  flex-direction: initial !important;
+}
+
+
+  .frame{
+    width:400px;
+    height: 280px;
+    background-color: white;
+    z-index: 1;
+    border: white ;
+}
+.inner-frame{
+    width: 95%;
+    height: 90%;
+    
+    z-index: 2;
+    background-color: black;
+}
+.displayFlex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.text-area-frame{
+    width: 95%;
+    height: 90%;
+    color: white;
+    z-index: 2;
+}
+.console{
+    width: 100%;
+    height: 40%;
+    border-top: solid white;
+    color: white;
+    z-index: 2;
+
+}
+.console-header{
+    color: white;
+    z-index: 2;
+}
+.stand{
+    height: 40px;
+    width: 20px;
+    background-color: white;
+    z-index: 2;
+}
+.stand-base{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    z-index: 2;
+}
+
+.circle{
+  background-color: #ede60c;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 0px 20px 120px 30px  #ede60c;
+  position: relative;
+  left: 420px;
+  bottom: 50px;
+}
