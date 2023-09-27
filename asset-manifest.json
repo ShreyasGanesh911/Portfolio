@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9bb668f7.css",
+    "main.js": "/Portfolio/static/js/main.484cb02c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/FocusUno-login.png": "/Portfolio/static/media/FocusUno-login.bbdff7639fa6dccacdb4.png",
+    "static/media/DD-home-laptop.png": "/Portfolio/static/media/DD-home-laptop.edc91f966771f9d5155e.png",
+    "static/media/Home-laptop.png": "/Portfolio/static/media/Home-laptop.fc09ab8fb65473647e2b.png",
+    "static/media/WebLogo.jpeg": "/Portfolio/static/media/WebLogo.0ea75f5925fd7c1911ac.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.9bb668f7.css.map": "/Portfolio/static/css/main.9bb668f7.css.map",
+    "main.484cb02c.js.map": "/Portfolio/static/js/main.484cb02c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb668f7.css",
+    "static/js/main.484cb02c.js"
+  ]
+}
