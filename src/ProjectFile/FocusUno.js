@@ -8,9 +8,9 @@ export default function FocusUno() {
         <div className=' project-container-img mx-5 ' id='project-container-img'>
             <motion.img id='project-img' whileHover={{opacity:0.5}} className='project-img' src={pic1}   alt="" />
           </div>
-          <motion.div id='project-content' initial={{opacity:0,x:-30}} animate={{opacity:1,x:0}} transition={{delay:0.5,duration:1}} className='project-content text-white displayFlex'>
+          <motion.div id='project-content' initial={{opacity:0,x:-30}} viewport={{once:true}} whileInView={{opacity:1,x:0}} transition={{delay:0.2,duration:1}} className='project-content text-white displayFlex'>
             <div className='displayFlex my-2 mx-5'>
-            <h3 className=' '>Focus Uno </h3>
+            <h3 className=' text-box '>Focus Uno </h3>
               <h6 className='my-3 mx-2  text-yellow text-box'>( JUNE 2023 )</h6>
             </div>
             

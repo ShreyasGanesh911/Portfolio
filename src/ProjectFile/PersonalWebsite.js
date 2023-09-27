@@ -9,9 +9,9 @@ export default function PersonalWebsite() {
         <div className=' mx-5 project-container-img' id='project-container-img' >
             <motion.img whileHover={{opacity:0.5}} className='w-100 h-100' style={{objectFit:"contain",borderRadius:'1.7rem'}} src={pic1}   alt="" />
           </div>
-          <motion.div id='project-content' initial={{opacity:0,x:-30}} animate={{opacity:1,x:0}} transition={{delay:0.5,duration:1}} className='project-content text-white displayFlex'>
+          <motion.div id='project-content' initial={{opacity:0,x:-30}} whileInView={{opacity:1,x:0}} viewport={{once:true}} transition={{delay:0.2,duration:1}} className='project-content text-white displayFlex'>
             <div  className='displayFlex my-2 mx-5'>
-            <h3>Personal Website </h3>
+            <h3 className='text-box'>Personal Website </h3>
               <h6 className='my-3 mx-2  text-yellow text-box'>( SEP 2023 )</h6>
             </div>
             

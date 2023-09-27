@@ -10,9 +10,9 @@ export default function DishDash() {
         <div className=' mx-5 project-container-img' id='project-container-img'>
             <motion.img id='project-img' whileHover={{opacity:0.5}} className=' project-img'  src={pic1}   alt="" />
           </div>
-          <motion.div initial={{opacity:0,x:-30}} id='project-content' animate={{opacity:1,x:0}} transition={{delay:0.5,duration:1}} className='text-white project-content displayFlex'>
+          <motion.div initial={{opacity:0,x:-30}} id='project-content' whileInView={{opacity:1,x:0}} viewport={{once:true}} transition={{delay:0.2,duration:1}} className='text-white project-content displayFlex'>
             <div className='displayFlex my-2 mx-5'>
-            <h3 className=' '>DishDash </h3>
+            <h3 className='text-box '>DishDash </h3>
               <h6 className='my-3 mx-2  text-yellow text-box'>( AUG 2023 )</h6>
             </div>
             

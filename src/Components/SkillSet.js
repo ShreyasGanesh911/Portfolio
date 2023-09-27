@@ -9,7 +9,7 @@ export default function SkillSet() {
         <div id='skillset-conatiner' className='displayFlex' style={{flexDirection:"column"}}>
         <div id='skillHeadingDiv' className='skillHeadingDiv'>
             <h5 style={{textAlign:"center"}}>Sell the problem you solve not the product</h5>
-            <h1 className='text-align my-3 text-yellow'  style={{textAlign:"center",fontSize:"60px"}}>Skills & Experience</h1>
+            <h1 className='text-align my-3 text-about text-yellow'  style={{textAlign:"center",fontSize:"60px"}}>Skills & Experience</h1>
             
         </div>
         <div className=" my-5 displayFlex skillset-content-display" id='skillset-content-display' >

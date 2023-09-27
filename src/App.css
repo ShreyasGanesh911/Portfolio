@@ -90,3 +90,9 @@ body{
   font-size: 12px;
   color: #149414 !important;
 }
+.text-content{
+  font-family: 'Raleway', sans-serif;
+}
+.text-about{
+  font-family: 'Inconsolata', monospace;
+}

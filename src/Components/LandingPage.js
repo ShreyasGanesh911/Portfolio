@@ -15,9 +15,9 @@ export default function LandingPage() {
             <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.8,delay:0.5}}  id='circle' className='circle'></motion.div>
 
                 <motion.h5 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1}}>Hi, my name is</motion.h5>
-                <motion.h1 className='text-yellow' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1}} style={{color:"#ede60c",fontSize:"80px"}}>Shreyas </motion.h1>
+                <motion.h1 className='text-yellow text-about' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1}} style={{color:"#ede60c",fontSize:"80px"}}>Shreyas </motion.h1>
                 <motion.h1  style={{color:"rgb(255 255 255 / 41%)"}} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1.1}} >I love creating things for the web.</motion.h1>
-                <motion.h5 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1.1}} className='my-3'>Web developer</motion.h5>
+                <motion.h5 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:1.1}} className='my-3 text-about'>Web developer</motion.h5>
             </div>
             <motion.div id='dotted-bg-div' className='background displayFlex-div' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.1,delay:0.8}}>
             <motion.div className='frame displayFlex-div' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:1}}>
