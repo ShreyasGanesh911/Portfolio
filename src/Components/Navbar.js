@@ -6,7 +6,7 @@ import logo from'../WebLogo.jpeg'
 export default function Navbar() {
   return (
     <>
-     <nav className="navbar fixed-top navbar-expand-lg  bg-black">
+     <nav className="navbar fixed-top navbar-expand-lg  bg-black" style={{opacity:'0.9'}}>
   <div className="container-fluid  my-3 nav-div" >
   <a className="navbar-brand text-white displayFlex" href="#home">
       <img src={logo} alt="Logo" style={{width:"60px" }} className="d-inline-block align-text-top"/>

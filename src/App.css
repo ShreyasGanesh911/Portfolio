@@ -27,7 +27,10 @@
 .App-link {
   color: #61dafb;
 }
-
+*{
+  padding: 0;
+  margin: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,8 +48,9 @@ html{
 }
 .page-fit{
   width: 100vw;
-  min-height: 90vh;
+  min-height: 100vh;
   height: auto;
+  margin-bottom: 10vh;
 }
 body{
   overflow-x: hidden;
@@ -60,28 +64,7 @@ body{
 .text-yellow{
   color: #ede60c;
 }
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-  
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: black; 
-  
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ede60c; 
-  border-radius: 55px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: white; 
-}
 .text-box{
   font-family: 'Dosis', sans-serif;
 }

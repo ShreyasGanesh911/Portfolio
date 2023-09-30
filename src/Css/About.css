@@ -1,8 +1,9 @@
 @media only screen and (max-width: 600px){
     #about-container{
-        
+        margin-bottom: 10vh;
         flex-flow: wrap-reverse;
     }   
+
     #about-content{
         width: 100% !important;
         padding-top: 20px;

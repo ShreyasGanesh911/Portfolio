@@ -8,7 +8,7 @@ export default function SkillSet() {
      <div id='skillset'  className='page-fit bg-black text-white displayFlex'>
         <div id='skillset-conatiner' className='displayFlex' style={{flexDirection:"column"}}>
         <div id='skillHeadingDiv' className='skillHeadingDiv'>
-            <h5 style={{textAlign:"center"}}>Sell the problem you solve not the product</h5>
+            <h5 style={{textAlign:"center"}}>" Sell the problem you solve not the product "</h5>
             <h1 className='text-align my-3 text-about text-yellow'  style={{textAlign:"center",fontSize:"60px"}}>Skills & Experience</h1>
             
         </div>

@@ -2,22 +2,20 @@
     #project-container{
         flex-direction: column !important;
         flex-flow: initial;
-        min-height: 75vh;
+        height: 700px;
         width: 95%;
         
     }
     #project-container-img{
         height: 40%;
     }
-    #portfolio{
-        padding-bottom: 60px;
-    }
+
 }
 @media only screen and (max-width: 380px){
     #project-container{
         flex-direction: column !important;
         flex-flow: initial;
-        min-height: 90vh;
+        min-height: 700px;
         width: 95%;
         
     }
@@ -25,7 +23,7 @@
 .project-container{
     height:45vh;
     justify-content:flex-start;
-    width:60%;
+    width:70%;
     flex-flow:row-reverse;
     border-radius:1.7rem;
 }

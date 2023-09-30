@@ -6,6 +6,9 @@
         margin: 0px !important;
         justify-content: start !important;
     }
+    #contact{
+        height: auto !important;
+    }
 }
 .footer{
     --dot-bg: black;
