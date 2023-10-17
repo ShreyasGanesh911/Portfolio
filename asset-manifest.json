@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.12e26405.css",
-    "main.js": "/Portfolio/static/js/main.813502d7.js",
+    "main.js": "/Portfolio/static/js/main.5adb2b9f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/FocusUno-login.png": "/Portfolio/static/media/FocusUno-login.bbdff7639fa6dccacdb4.png",
     "static/media/DD-home-laptop.png": "/Portfolio/static/media/DD-home-laptop.edc91f966771f9d5155e.png",
@@ -9,11 +9,11 @@
     "static/media/WebLogo.jpeg": "/Portfolio/static/media/WebLogo.0ea75f5925fd7c1911ac.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.12e26405.css.map": "/Portfolio/static/css/main.12e26405.css.map",
-    "main.813502d7.js.map": "/Portfolio/static/js/main.813502d7.js.map",
+    "main.5adb2b9f.js.map": "/Portfolio/static/js/main.5adb2b9f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12e26405.css",
-    "static/js/main.813502d7.js"
+    "static/js/main.5adb2b9f.js"
   ]
 }
